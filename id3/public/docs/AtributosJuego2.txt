@@ -1,0 +1,1 @@
+tamanio,timbres,portero,clase

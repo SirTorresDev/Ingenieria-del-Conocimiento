@@ -1,0 +1,64 @@
+.home{
+    display: flex;
+    align-items: center;
+
+}
+
+.firstPanel{
+    margin-left: 30%;
+}
+.secondPanel{
+    margin-top: 20%;   
+}
+
+.labelTraining{
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+    .header{
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.8);
+      height: 15%;
+    }
+    svg {
+      display: block;
+      font: 10.5em "Montserrat";
+      width: 960px;
+      height: 170px;
+      margin: 0 auto;
+    }
+    .firstPanel{
+        background-size: cover;
+        margin-left: 10%;
+      }
+  }
+
+  @media (max-width: 600px) {
+    .header{
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.8);
+      height: 15%;
+    }
+    #titulo {
+      display: block;
+      font: 10.5em "Montserrat";
+      width: 960px;
+      height: 170px;
+      margin: 0 auto;
+    }
+    .firstPanel{
+      margin-left: 0%;
+      width: 75%;
+    }
+    #vertical-tabpanel-0 {
+      width: 80%;
+    }
+    .home{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  
